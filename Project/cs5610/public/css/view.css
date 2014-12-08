@@ -1,0 +1,9 @@
+.container
+{
+	color: blue; 
+	text-align: justify;
+	padding: 10px; 
+	border-width: 2px; 
+	border-color: gray; 
+	border-style: solid;
+}

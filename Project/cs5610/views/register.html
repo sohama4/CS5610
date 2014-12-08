@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Register here</title>
+    <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/register.css" rel="stylesheet" />
+    <script src="/js/bootstrap.js" /></script> 
+    <script src="/js/jquery.js" /></script>
+    <script src="/js/jquery.validate.min.js" /></script>
+    <script src="/js/register.js" /></script>
+</head>
+<body class="homebody">
+  <div class="container">
+  <h1>Register here</h1>
+  <img src="css/images/register.jpg" class="registerimg" />
+  <!--  The form that will be parsed by jQuery before submit  -->
+  <form action="/register" method="post" id="register-form" novalidate="novalidate">
+  
+    <div class="label">First Name*:</div><br><input type="text" id="fname" name="fname" /><br />
+    <div class="label">Last Name*:</div><br><input type="text" id="lname" name="lname" /><br />
+    <div class="label">E-mail*:</div><br><input type="text" id="username" name="username" /><br />
+    <div><button type="submit" class="btn-primary"name="submit" value="Submit!">Register!</button></div><br>
+    
+    <div id = "errors">{{ errors }}</div>
+    
+      <p>Hello all! This website brings users together using their own interests! You can use this website to peruse various articles on your favorite topic, and enjoy the various features that come with that, like storing for later browsing, writing your own articles, etc. You need to have a valid e-mail ID to access the website, and not just one that will pass validation tests, but one that can receive mails ;)</p><br><br>
+
+      Already a member? <a href="/login">Log In</a><br><br><a href="/loginsuccess">Home</a>
+    </div>
+
+    
+  </form>
+  
+</body>

@@ -1,0 +1,71 @@
+<html>
+<head>
+  
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  
+  <link href="css/register.css" rel="stylesheet" />
+  <!-- Load jQuery and the validate plugin -->
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+  
+  <!-- jQuery Form Validation code -->
+  <script>
+  
+  // When the browser is ready...
+  $(function() {
+  
+    // Setup form validation on the #login-form element
+    $("#login-form").validate({
+    
+        // Specify the validation rules
+        rules: {
+            password: {
+                required: true,
+                minlength: 8
+            },
+            username: {
+                required: true,
+                email: true
+            }
+        },
+        
+        // Specify the validation error messages
+        messages: {
+            password: {
+                required: "Please provide a password",
+                minlength: "Your password must be at least 8 characters long"
+            },
+            username: "Please enter a valid email address",
+        },
+        errorLabelContainer: '#errors',
+        wrapper:'li',
+        submitHandler: function(form) {
+            form.submit();
+        }
+    });
+
+  });
+  
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Login here</h1>
+
+    <!--  The form that will be parsed by jQuery before submit  -->
+    <form action="/login" method="post" id="login-form" novalidate="novalidate">
+
+    <div class="label">E-mail:</div><br><input type="text" id="username" name="username" /><br />
+    <div class="label">Password:</div><br><input type="password" id="password" name="password" /><br />
+    <div><input type="submit" name="submit" value="Submit!" /></div>
+    <div id = "errors">{{ errors }}</div><br>
+    <p>If you enter any value in this form, its going to render the same HTML again, but with dynamically modified content in the div with id as "errors"
+    </p>
+    </div>
+
+    
+  </form>
+  
+</body>
+</html>

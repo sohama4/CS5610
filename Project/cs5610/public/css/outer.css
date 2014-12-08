@@ -1,0 +1,292 @@
+
+.bookimg
+{
+	float: left;
+	height: 100px;
+	width: 67px;
+	margin-right: 5%;
+}
+
+.resultimg
+{
+	height: 100px;
+	margin-right: 15%;
+}
+.listitems .listitemdiv
+{
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 1%;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	opacity: 0.9
+}
+
+
+.listitems .listitemdiv
+{
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 1%;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	opacity: 0.9
+}
+
+.listitems .listitemdiv h3
+{
+	color: white;
+}
+
+.reviewbody
+{
+	background-size: cover;
+	background-image: url('/css/images/home.png');
+	background-attachment: fixed;
+}
+
+.listitems .listitemdiv:hover
+{
+	opacity: 1;
+	cursor: pointer; cursor: hand;
+}
+
+.viewdiv
+{
+	color: white;
+}
+
+
+
+.listitemdiv
+{
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 1%;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	border-radius: 5px;
+}
+th
+{
+	vertical-align: top;
+	padding-left: 15%;
+}
+
+
+
+
+.bookdiv
+{
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 1%;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.bigtext
+{
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+}
+
+.resultdiv
+{
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.homepage
+{
+	background-size: cover;
+	background-image: url('/css/images/home.png');
+	max-width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.listtext
+{
+	color: white;
+}
+
+
+
+.homebody
+{
+	max-width: 100%;
+	background-image: url('/css/images/home.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homebody .container h1
+{
+	color: white;
+}
+
+.homebookdiv
+{
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+
+
+.displaydiv ul
+{
+	list-style: none;
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+.displaydiv
+{
+	
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+
+.articlediv
+{
+	color: #333333;
+	background-image: url('/css/images/articlebackground.jpg');
+	font-family: Georgia;
+	font-size: 20px;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 1px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.rotatediv
+{
+	color: white;
+	margin: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+.readarticlebody
+{
+	background-size: cover;
+	background-image: url('/css/images/home.png');
+	color: white;
+}
+
+.readarticlebody .container h1 h4
+{
+	color: white;
+}
+
+.homebody .navbarelements
+{
+  width: 16.16%;
+  height: 38.5px;
+  float: left;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin: 2px;
+  opacity: 0.6;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;*/
+}
+.homebody .mynavbar
+{
+  color: white;
+  opacity: 0.9;
+  width: inherit;
+  height: 45px;
+  display: table;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.reviewbody .showdiv h2
+{
+	color: white;
+}
+
+.reviewbody .showdiv h3
+{
+	color: white;
+}
+
+.reviewbody .showdiv
+{
+	color: white;
+}
+
+.navbarelements
+{
+  
+  width: 16.16%;
+  height: 38.5px;
+  float: left;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin: 2px;
+  opacity: 0.6;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;*/
+}
+.mynavbar
+{
+  color: white;
+  opacity: 0.9;
+  width: inherit;
+  height: 45px;
+  display: table;
+  font-weight: bold;
+  
+  padding: 5px;
+}

@@ -1,0 +1,221 @@
+.label 
+{
+  color:white;
+  background: none;
+  text-align:right;
+  float:left;
+  padding-right:10px;
+  font-family: Helvetica;
+}
+
+.homebody
+{
+  max-width: 100%;
+  color: white;
+  background-image: url('/css/images/home.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-primary
+{
+  background-color: #00456e
+}
+li
+{
+  color: red;
+  list-style: none;
+}
+#errors
+{
+  color: red;
+}
+
+.loginimg
+{
+  float: right;
+  height: 70%;
+}
+.stickimg
+{
+  float: right;
+  height: 70%;
+}
+
+input.form-control
+{
+  width: 100%;
+  height: 45px;
+}
+
+textarea
+{
+  width: 100%;
+  resize: none;
+  height: 70%;
+}
+
+h1 
+{
+  font-family: Helvetica;
+  font-weight: 100;
+  color:#333;
+  padding-bottom:20px;
+}
+
+#Sports
+{
+  background-image: url("images/sports.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Film
+{
+  background-image: url("images/film.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Health
+{
+  background-image: url("images/health.ico");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Science
+{
+  background-image: url("images/science.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Travel
+{
+  background-image: url("images/travel.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Fashion
+{
+  background-image: url("images/fashion.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#Economics
+{
+  background-image: url("images/economics.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Technology
+{
+  background-image: url("images/technology.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hider
+{
+ background-color: #00456e;
+ height: 40px; 
+ font-weight: bold;
+
+}
+
+.hider1
+{
+  background-color: #00456e;
+ height: 40px; 
+ font-weight: bold;
+}
+
+.bookimg
+{
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 5%;
+}
+
+.resultdiv
+{
+  margin: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 1px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.category
+{
+  color: black;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 2%;
+  background-color: white;
+  height: 240px;
+  width: 24.4%;
+  text-indent: 10%;
+  float: left;
+  margin: 2px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+login
+
+.imagediv
+{
+  padding: 0px;
+  background-color: white;
+  height: 52px;
+  width: 52px;
+  float: left;
+  margin: 4px;
+}
+.homebody .navbarelements
+{
+  background: none;
+  width: 16.16%;
+  height: 38.5px;
+  float: left;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin: 2px;
+  opacity: 0.6;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;*/
+}
+.homebody .mynavbar
+{
+  color: white;
+  opacity: 0.9;
+  width: inherit;
+  height: 45px;
+  display: table;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+
+
+

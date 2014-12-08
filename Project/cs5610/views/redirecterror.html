@@ -1,0 +1,21 @@
+<html>
+<head>
+<style>
+.error
+{
+	color: red;
+}
+</style>
+
+  <title>Error: {{ statusCode }}</title>
+  <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+ </head>
+ <body>
+ 	<div class="container">
+  	<h1>That URL returned a {{ statusCode }} error :(</h1><br>
+  	<p>Please check the URL you want to go to, which in this case was: <div class='error'>{{ error }}</div><br><br>You will arrive at this page most often because of the <a href="http://en.wikipedia.org/wiki/HTTP_404" target='_blank'>404 Error</a><br>A list of the common HTTP errors is: <a href='http://en.wikipedia.org/wiki/List_of_HTTP_status_codes'>here</a>. You can return to the main user page <a href='/'>here</a>.
+  	</div>
+
+ </body>
+  </html>

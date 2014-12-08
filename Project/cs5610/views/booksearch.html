@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Books</title>
+  <link href="/css/bootstrap.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+  <link href="/css/outer.css" rel="stylesheet" />
+  <script src="/js/jquery.js" ></script>
+  <script src="/js/bootstrap.js"></script>
+  <script src="/js/booksearch.js"></script>
+</head>
+<body class="homebody">
+  <div class="container">
+    <h1>Search Books</h1><br>
+
+    <div class="mynavbar">
+      <div class="navbarelements" style="border-width: 0px; font-weight: bold;"><h3>Home</h3></div>
+      <div class="navbarelements"><h4>{{ search }}</h4></div>
+      <div class="navbarelements"><h4>{{ bestsellers }}</h4></div>
+      <div class="navbarelements"><h4>{{ why }}</h4></div>
+      <div class="navbarelements"><h4>{{ register }}</h4></div>
+      <div class="navbarelements"><h4>{{ login }}</h4></div>
+    </div><br>
+        <div class="listtext">
+
+    <div id="hovertext"><b>What does this page do? Hover to find out!</b></div>
+    <div id="hovershow">
+      Search Books by Author name or title! For example: Harry Potter and the Chamber of Secrets<br>
+      API Used: Google Books, might return journals, articles, etc.<br>
+      Happy searching :)
+
+    </div><br><br><br>
+
+
+
+    </div>
+    <form style="color: white;"class="form-search text-center" id="search" action="">
+      
+      <input type="search" class="span7 search-query" name="q" id="q" autocomplete="off" placeholder="Search..">  
+      <button type="submit" class="btn"><i class="icon-search icon-large"></i>Go!</button><br><br>
+      <input type="radio" class="text-left" style="{float: left; margin-left: 0px; margin-right: 0px;}" name="myradio" id="mr1" value="1">Search by Author<br><br>
+      <input type="radio" class="text-right" style="{float: right; margin-left: 0px; margin-right: 0px;}" name="myradio" id="mr2" value="2" checked>Search by Title!<br><br>
+      <b>Some results might not have an ISBN, and will redirect to their Google Reader pages!</b><hr>
+    <div class="booksearchdiv"><div class="showdiv"></div></div>
+    <hr>
+
+
+    <script src="/js/booksearchquery.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Write</title>
+  <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/register.css" rel="stylesheet" />
+  <link href="/css/homecss.css" rel="stylesheet" />
+  <script src="/js/bootstrap.js" ></script>
+  <script src="/js/jquery.js" ></script>
+  <script src="/js/jquery.validate.min.js"></script>
+  <script src="/js/write.js" ></script>
+
+</head>
+<body class="homebody">
+    <div class="container">
+      <h1>Write..</h1>
+          <div class="mynavbar">
+            <div class="navbarelements" style="border-width: 0px; font-weight: bold;"><h3>Home</h3></div>
+            <div class="navbarelements"><h4>User Activity</h4></div>
+            <div class="navbarelements"><h4>Search</h4></div>
+            <div class="navbarelements"><h4>Write</h4></div>
+            <div class="navbarelements"><h4>Books!</h4></div>
+            <div class="navbarelements"><h4>Log out!</h4></div>
+          </div><br>
+
+	<div id="hovertext"><b>What does this page do? Hover to find out!</b></div>
+    <div id="hovershow">
+      Write some articles for this site!<br>
+      Tip: <b>Title should be minimum five words, and content three hundred</b>
+    </div><br><br>
+
+  <div id="errors">{{ errors }}</div>
+  
+
+  <form id="write" method="post" action="/writesubmit">
+    <input type="text" class="form-control" placeholder="Title.." name="title" id="title"><br>
+    <textarea class="form-control" placeholder="Content.." name="article" id="article"></textarea>
+    <button type="submit" class="btn-primary" value="Post!">Post!</button>
+  </form>
+  
+  <hr>
+  <div class="showdiv"></div>
+  </div>
+  </body>
+  </html>
+  

@@ -1,0 +1,115 @@
+.label 
+{
+  color:white;
+  background: none;
+  text-align:right;
+  float:left;
+  padding-right:10px;
+  font-family: Helvetica;
+}
+
+.homebody
+{
+  max-width: 100%;
+  color: white;
+  background-image: url('/css/images/home.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.continuebutton
+{
+  margin-right: 2px;
+  border-radius: 2px;
+}
+.navbarelements
+{
+  width: 16.16%;
+  height: 38.5px;
+  float: left;
+  text-align:center;
+  margin: 2px;
+  opacity: 0.6;
+/*  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;*/
+}
+.mynavbar
+{
+  /*background-color: #00456e;*/
+  color: white;
+  opacity: 0.7;
+  width: inherit;
+  height: 45px;
+  font-weight: bold;
+ /* border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 4px;
+ */ padding: 5px;
+}
+
+#all
+{
+  width:100%;
+  float:left;
+  text-align:center;
+}
+div.sub, iframe 
+{
+  margin: 0 auto;
+}
+
+.registerimg
+{
+  float: right;
+}
+
+.category
+{
+  opacity: 0.6;
+}
+li
+{
+  color: red;
+  list-style: none;
+}
+#errors
+{
+  color: red;
+}
+h1 
+{
+  font-family: Helvetica;
+  font-weight: 100;
+  color:#333;
+  padding-bottom:20px;
+}
+
+.homebody .navbarelements
+{
+  background: none;
+  width: 16.16%;
+  height: 38.5px;
+  float: left;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin: 2px;
+  opacity: 0.6;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;*/
+}
+.homebody .mynavbar
+{
+  color: white;
+  opacity: 0.9;
+  width: inherit;
+  height: 45px;
+  display: table;
+  font-weight: bold;
+  padding: 5px;
+}

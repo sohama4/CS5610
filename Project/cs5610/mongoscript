@@ -1,0 +1,6 @@
+#!/bin/sh
+mongo --eval "db.RegisteredUsers.drop()"
+mongo --eval "db.UserStates.drop()"
+mongo --eval "db.Articles.drop()"
+mongo --eval "db.UserArticles.drop()"
+mongo --eval "db.WrittenArticles.drop()"

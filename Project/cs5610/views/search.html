@@ -1,0 +1,52 @@
+<html>
+	<head>
+	  <title>Search</title>
+	  <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+	  <link href="/css/bootstrap.css" rel="stylesheet" />
+	  <link href="/css/register.css" rel="stylesheet" />
+	  <link href="/css/homecss.css" rel="stylesheet" />
+	  <script src="/js/bootstrap.js"></script> 
+	  <script src="/js/jquery.js"></script>
+	  <script src="/js/jquery.validate.min.js"></script>
+	  <script src="/js/search.js"></script>
+	</head>
+	<body class="homebody">
+		<div class="container">
+			<h1>Explore..</h1>
+			    <div class="mynavbar">
+			      <div class="navbarelements" style="border-width: 0px; font-weight: bold;"><h3>Home</h3></div>
+			      <div class="navbarelements"><h4>User Activity</h4></div>
+			      <div class="navbarelements"><h4>Search</h4></div>
+			      <div class="navbarelements"><h4>Write</h4></div>
+			      <div class="navbarelements"><h4>Books!</h4></div>
+			      <div class="navbarelements"><h4>Log out!</h4></div>
+			    </div><br>
+		<div id="hovertext"><b>What does this page do? Hover to find out!</b></div>
+	    <div id="hovershow">
+	      Search!<br>
+	      Tip: <b>Both local and The Guardian articles can be searched! By content and by title too!<br>
+	      Happy searching :)</b>
+	    </div><br><br>
+			<form class="form-search text-center" id="search" action="">
+			
+			<input type="search" class="span7 search-query" name="q" id="q" autocomplete="off" placeholder="Search..">	
+			<button type="submit" class="btn"><i class="icon-search icon-large"></i>Go!</button><br><br>
+			<input type="radio" class="text-left" name="myradio" id="mr1" value="1">Search locally!<br><br>
+			<input type="radio" class="text-right" name="myradio" id="mr2" value="2" checked>Search The Guardian!<br>
+			</form>
+			<br><div id="errors"></div>
+			<br>
+			<br><div class="showdiv"></div>
+
+			
+		<br>
+		</div>
+		<script src="js/searchquery.js"></script>
+	</body>
+</html>
+
+
+
+
+
+

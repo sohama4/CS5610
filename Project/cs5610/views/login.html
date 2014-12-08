@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Login</title>
+  <link rel="shortcut icon" href="/css/images/ico.jpg" type="image/ico">
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/register.css" rel="stylesheet" />
+    <link href="/css/homecss.css" rel="stylesheet" />
+    <script src="/js/bootstrap.js"></script> 
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.validate.min.js" /></script>
+    <script src="/js/login.js"></script>
+ 
+  </script>
+</head>
+<body class="homebody">
+  <div class="container">
+    <h1>Login here!</h1>
+  
+
+    <img class="loginimg" src="/css/images/login.png" />
+    <form action="/login" method="post" id="login-form" novalidate="novalidate">
+
+    <div class="label">E-mail*:</div><br><input type="text" id="username" name="username" /><br />
+    <div class="label">Password*:</div><br><input type="password" id="password" name="password" /><br />
+    <input type="checkbox" name="loggedin" value="loggedin" /> Keep me logged in<br><br>
+    <button type="submit" class="btn-primary" name="submit" value="Log In!" >Log In!</button>
+
+    <div id = "errors">{{ errors }}</div>
+    <p>
+        Some might say, why log in? What'll I get? Well..<br>
+        
+            <br>Articles! Concise compared to books, a quick read!
+            <br>A chance to save what you already read
+            <br>A chance to write your own articles
+        
+    </p>
+
+    <br><br><br>New? <a href="/register">Register here!</a><br><br><a href="/loginsuccess">Home</a>
+    </div>
+
+    
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Update here</title>
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/register.css" rel="stylesheet" />
+  <link href="/css/homecss.css" rel="stylesheet" />
+  <script src="/js/bootstrap.js" ></script>
+  <script src="/js/jquery.js" ></script>
+  
+  <!-- jQuery Form Validation code -->
+  
+</head>
+<body>
+  <div class="container">
+  <h1>Page rendered using swig</h1>
+
+  The text you enter in the input text box below will be displayed in the same page after reloading in a separate div using Swig
+  <form action="/swig" method="post">
+  <input type="text" name="newname" id="newname"/>
+  <input type="submit" value="Submit!">
+  </form>
+  <div>{{ text }}</div>
+  </div>
+
+
+
+ 
+  
+</body>
+</html>
